@@ -1,0 +1,132 @@
+skeleton.png
+size:1940,1891
+filter:Linear,Linear
+pma:true
+scale:0.4
+Flip/1
+bounds:0,914,316,322
+Flip/10
+bounds:636,540,198,350
+Flip/11
+bounds:1001,413,160,354
+rotate:90
+Flip/12
+bounds:1554,228,115,357
+rotate:90
+Flip/13
+bounds:319,1489,76,358
+rotate:90
+Flip/14
+bounds:636,892,118,358
+Flip/15
+bounds:836,547,163,356
+offsets:151,47,432,432
+Flip/16
+bounds:1023,59,201,352
+yellow to green/16y_to_g
+bounds:1023,59,201,352
+Flip/17
+bounds:317,1252,235,348
+rotate:90
+yellow to green/17y_to_g
+bounds:317,1252,235,348
+rotate:90
+Flip/18
+bounds:0,0,264,342
+rotate:90
+yellow to green/18y_to_g
+bounds:0,0,264,342
+rotate:90
+Flip/19
+bounds:1005,1242,287,337
+yellow to green/19y_to_g
+bounds:1005,1242,287,337
+Flip/2
+bounds:0,590,316,322
+Flip/20
+bounds:992,908,302,332
+yellow to green/20y_to_g
+bounds:992,908,302,332
+Flip/21
+bounds:959,1581,310,329
+rotate:90
+yellow to green/21y_to_g
+bounds:959,1581,310,329
+rotate:90
+Flip/22
+bounds:0,1238,315,326
+yellow to green/22y_to_g
+bounds:0,1238,315,326
+Flip/23
+bounds:0,1566,317,325
+yellow to green/23y_to_g
+bounds:0,1566,317,325
+Flip/24
+bounds:319,1567,318,324
+yellow to green/24y_to_g
+bounds:319,1567,318,324
+Flip/25
+bounds:639,1567,318,324
+yellow to green/25y_to_g
+bounds:639,1567,318,324
+Flip/3
+bounds:318,280,315,322
+Flip/4
+bounds:679,1252,313,324
+rotate:90
+Flip/5
+bounds:1290,1582,309,327
+rotate:90
+Flip/6
+bounds:1607,952,300,331
+rotate:90
+Flip/7
+bounds:1303,592,285,335
+Flip/8
+bounds:344,16,262,340
+rotate:90
+Flip/9
+bounds:756,905,234,345
+empty
+bounds:0,266,316,322
+red
+bounds:1619,1569,316,322
+yellow to green/10y_to_g
+bounds:1590,729,198,350
+rotate:90
+yellow to green/11y_to_g
+bounds:1226,57,160,354
+yellow to green/12y_to_g
+bounds:1388,111,115,357
+rotate:90
+yellow to green/13y_to_g
+bounds:1388,33,76,358
+rotate:90
+yellow to green/14y_to_g
+bounds:1554,345,118,358
+rotate:90
+yellow to green/15y_to_g
+bounds:1388,234,164,356
+offsets:151,47,432,432
+yellow to green/1y_to_g
+bounds:318,928,316,322
+yellow to green/2y_to_g
+bounds:318,604,316,322
+yellow to green/3y_to_g
+bounds:1294,1258,315,322
+yellow to green/4y_to_g
+bounds:1611,1254,313,324
+rotate:90
+yellow to green/5y_to_g
+bounds:1296,929,309,327
+yellow to green/6y_to_g
+bounds:1001,575,300,331
+yellow to green/7y_to_g
+bounds:686,17,285,335
+rotate:90
+yellow to green/8y_to_g
+bounds:1590,465,262,340
+rotate:90
+yellow to green/9y_to_g
+bounds:635,304,234,345
+rotate:90

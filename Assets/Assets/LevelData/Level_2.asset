@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9994a0416a4780444a11c4289b2605d6, type: 3}
+  m_Name: Level_2
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  answer: CAKE
+  image1: {fileID: 21300000, guid: 79f4e04175b8c2143b4d10ee8dc4dd04, type: 3}
+  image2: {fileID: 21300000, guid: 5662f3b9aad8d51498e1608a3bd6db5f, type: 3}
+  image3: {fileID: 21300000, guid: b19e9bac3057b88429ad4c40efee9c39, type: 3}
+  image4: {fileID: 21300000, guid: b927e18d9e98b0c4fa5b650bd53066cb, type: 3}
+  totalLetterCount: 7
