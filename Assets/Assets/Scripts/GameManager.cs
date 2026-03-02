@@ -131,8 +131,19 @@ public class GameManager : MonoBehaviour
 
     public void IncreaseIQ()
     {
+        // 🔥 If current level is Level 3 (0-based index = 2)
+        if (currentLevelIndex == 2)
+        {
+            iqStage = 3;          // Force max stage
+            UpdateIQValue();      // This will animate to 130
+            ApplyIQState();       // Move arrow to 120 position
+            return;               // Stop normal logic
+        }
+
+        // Normal behaviour for other levels
         if (iqStage < 3)
             iqStage++;
+
         UpdateIQValue();
         ApplyIQState();
     }
