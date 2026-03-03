@@ -108,7 +108,8 @@ public class SwipeController : MonoBehaviour
         {
             Debug.Log("Correct!");
             GameManager.Instance.IncreaseIQ();
-
+            TimerManagement.instance.StopTimer();
+            TimerManagement.instance.stopWatch.GetComponent<PulseButtonWithIdle>().TogglePulse(false);
             uiLineRenderer.ClearAll();
             // 1️⃣ Play correct animation
             slotManager.PlayCorrectAnimation();
@@ -171,6 +172,7 @@ public class SwipeController : MonoBehaviour
     }
     IEnumerator HandleCorrectComplete()
     {
+        
         yield return new WaitForSeconds(0.2f);
         ResetLetters();
         LoadNextLevel();

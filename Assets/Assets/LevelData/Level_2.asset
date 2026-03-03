@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9994a0416a4780444a11c4289b2605d6, type: 3}
   m_Name: Level_2
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
-  answer: CAKE
-  image1: {fileID: 21300000, guid: 79f4e04175b8c2143b4d10ee8dc4dd04, type: 3}
-  image2: {fileID: 21300000, guid: 5662f3b9aad8d51498e1608a3bd6db5f, type: 3}
-  image3: {fileID: 21300000, guid: b19e9bac3057b88429ad4c40efee9c39, type: 3}
-  image4: {fileID: 21300000, guid: b927e18d9e98b0c4fa5b650bd53066cb, type: 3}
+  answer: BIRD
+  image1: {fileID: 21300000, guid: e69ef473a9d728d44949b6d3af251640, type: 3}
+  image2: {fileID: 21300000, guid: a704dac38ecc3f3418f1604985052488, type: 3}
+  image3: {fileID: 21300000, guid: 1a86b76ff0acace4a947b2a458055a9b, type: 3}
+  image4: {fileID: 21300000, guid: 1882e7b7828ffb24ba83ecb256c88369, type: 3}
   totalLetterCount: 7

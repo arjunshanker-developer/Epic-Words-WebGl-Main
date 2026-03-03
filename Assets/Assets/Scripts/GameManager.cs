@@ -41,7 +41,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+
         LoadLevel(currentLevelIndex);
+        TimerManagement.instance.StartTimer();
     }
 
     public LevelData GetCurrentLevel()
@@ -68,10 +70,14 @@ public class GameManager : MonoBehaviour
         imageGrid.SetupImages(level);
 
        slotManager.SetupSlots(level.answer.Length);
+        
     }
 
     public void NextLevel()
     {
+        TimerManagement.instance.ResumeTimer();
+       // TimerManagement.instance.StartTimer();
+        TimerManagement.instance.stopWatch.GetComponent<PulseButtonWithIdle>().TogglePulse(true);
         currentLevelIndex++;
         LoadLevel(currentLevelIndex);
     }
@@ -87,6 +93,7 @@ public class GameManager : MonoBehaviour
 
     public void ShowResultCanvas()
     {
+        TimerManagement.instance.StopTimer();
         if (resultFadeCoroutine != null)
             StopCoroutine(resultFadeCoroutine);
 
